@@ -1,0 +1,29 @@
+.m-button{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: #27272E;
+    background: #27272E;
+    margin: auto;
+    border-radius: 169.733px;
+    &::after{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        margin: -11px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: inherit;
+        background-image: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%);
+    }
+    padding: 21px;
+    &__text{
+        padding: 31px 32px 31px 51px;
+    }
+    // img{
+    //     max-width: 50%;
+    // }
+}

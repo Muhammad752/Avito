@@ -1,0 +1,102 @@
+.top{
+    padding-top: 43px;
+    .container{
+        margin-left: 100px;
+    }
+    &-right{
+        position: absolute;
+        top:-20px;
+        right: -20px;
+        max-width: 25%;
+        z-index: -1;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        display: flex;
+        align-items: flex-start;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        color: #16171B;
+    }
+}
+.main{
+    height: 1000px;
+    position: relative;
+    &__container{
+        position: relative;
+        display: flex;
+        width: 100%;
+    }
+    .head{
+        margin-bottom: 60px;
+        padding-bottom: 8px;
+        font-weight: 300;
+font-size: 40px;
+line-height: 51px;
+    }
+}
+.showcase{
+    // position: relative;
+    overflow: hidden;
+    // height: calc(100vh - 142px);
+    padding-left: 120px;
+    z-index: 22;
+    >*{
+        padding-bottom: 30px;
+    }
+    &__image{
+        width: 50%;
+        // position: absolute;
+        right: -20%;
+    }
+    &__bigger-text{
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 100%;
+        color: #16171B;
+    }
+    &__button{
+        background: #5956E9;
+        color: white;
+        border: none;
+        border-radius: 21px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        padding: 19px 25px;
+        position: relative;
+        .shadow{
+            z-index: -1;
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            top: 19px;
+            background: #5956E9;
+            opacity: 0.5;
+            filter: blur(48px);
+            border-radius: 21px;
+        }
+    }
+    &__1st-line{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #16171B;
+    }
+    &__last-line{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        color: #16171B;
+    }
+}
